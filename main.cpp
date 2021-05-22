@@ -12,6 +12,7 @@
 
 #include <stdio.h> 
 #include <stdlib.h>
+#include <unistd.h>
 #include "voltage2pwm.h"
 
 
@@ -29,6 +30,7 @@ int main() {
 	while(1) {
 		get_voltages(voltages);
 		updatePWM(voltages);
+		sleep(1);
 	}
 
 	return 0;
