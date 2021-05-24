@@ -5,7 +5,7 @@
 * @author     : Carlos Carrasquillo
 * @contact    : c.carrasquillo@ufl.edu
 * @date       : May 21, 2021
-* @modified   : May 21, 2021
+* @modified   : May 23, 2021
 *
 * Property of ADAMUS lab, University of Florida.
 ****************************************************************************/
@@ -26,6 +26,7 @@ void get_voltages(float* voltages) {
 int main() {
 	float voltages[3]; 
 	int status;
+	initPWM();
 
 	while(1) {
 		get_voltages(voltages);

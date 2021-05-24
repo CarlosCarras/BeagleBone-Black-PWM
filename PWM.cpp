@@ -6,9 +6,12 @@
 * @author     : Carlos Carrasquillo
 * @contact    : c.carrasquillo@ufl.edu
 * @date       : May 21, 2021
-* @modified   : May 21, 2021
+* @modified   : May 23, 2021
 *
 * Property of ADAMUS lab, University of Florida.
+*
+* Parts of this code are inspired by code found at: 
+*     http://www.nagavenkat.adurthi.com/control-robotics-experiments/304/
 ****************************************************************************/
 
 #include <stdio.h>
